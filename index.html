@@ -5,30 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jinane Alayli - Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Enhanced Elegant Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets/logo.png" alt="Logo" class="logo-img">
-                <span class="logo-text"> </span>
+                <div class="logo-wrapper">
+                    <img src="assets/logo.png" alt="Jinane Alayli" class="logo-img">
+                    <div class="logo-content">
+                        <span class="logo-name">Jinane Alayli</span>
+                        <span class="logo-title">Full Stack Developer</span>
+                    </div>
+                </div>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#home" class="nav-link active">
+                        <span class="nav-text">Home</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">
+                        <span class="nav-text">About</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#portfolio" class="nav-link">
+                        <span class="nav-text">Portfolio</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-text">Contact</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
             </ul>
+            <div class="nav-cta">
+                <a href="mailto:jinanealayli@gmail.com" class="nav-contact-btn">
+                    <i class="fas fa-envelope"></i>
+                    <span>Let's Talk</span>
+                </a>
+            </div>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -38,42 +62,144 @@
     </nav>
 
     <main>
-        <!-- Hero Section -->
+        <!-- Enhanced Hero Section -->
         <section id="home" class="hero">
+            <!-- Animated Background Elements -->
+            <div class="hero-bg">
+                <div class="geometric-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                    <div class="shape shape-5"></div>
+                </div>
+                <div class="floating-particles">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                </div>
+            </div>
+
             <div class="hero-container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <h1 class="hero-title">
-                            Building Digital Experiences
-                         </h1>
+                        
+                        
+                       <h1 class="hero-title">
+  
+                        <span class="title-line">Building&nbsp;Digital</span>
+                        <span class="title-line gradient-text">Experiences</span>
+                        <span class="title-line">That&nbsp;Matter</span>
+                        </h1>
+                        <div class="hero-meta">
                         <p class="hero-subtitle">
-                            Transforming creativity into functionality with modern web technologies and innovative solutions.
+                            Transforming innovative ideas into powerful digital solutions with cutting-edge technologies and creative problem-solving.
                         </p>
+                        
                         <div class="hero-buttons">
                             <a href="assets/Jinanecv.pdf" class="btn btn-primary" download>
-                                <i class="fas fa-download"></i>
-                                Download Resume
+                                <span class="btn-text">Download Resume</span>
+                                <i class="fas fa-download btn-icon"></i>
                             </a>
                             <a href="mailto:jinanealayli@gmail.com" class="btn btn-secondary">
-                                Let's Build Together
+                                <span class="btn-text">Let's Collaborate</span>
+                                <i class="fas fa-arrow-right btn-icon"></i>
                             </a>
                         </div>
+                        
+                        <div class="hero-social">
+                            <span class="social-label">Connect with me</span>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/jinane-alayli/" target="_blank" class="social-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/JinaneAlayli" target="_blank" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://wa.me/0096170298529" target="_blank" class="social-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    <div class="hero-image">
-                        <div class="floating-card">
-                            <div class="card-content">
-                                <i class="fas fa-code"></i>
-                                <span>Full Stack Developer</span>
+                    
+                    <div class="hero-visual">
+                        <div class="visual-container">
+                            <!-- 3D Card Stack -->
+                            <div class="card-stack">
+                                <div class="tech-card card-1">
+                                    <div class="card-header">
+                                        <i class="fab fa-react"></i>
+                                        <span>Frontend</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tech-card card-2">
+                                    <div class="card-header">
+                                        <i class="fas fa-server"></i>
+                                        <span>Backend</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tech-card card-3">
+                                    <div class="card-header">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Mobile</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Floating Tech Icons -->
+                            <div class="floating-tech">
+                                <div class="tech-icon icon-1">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="tech-icon icon-2">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="tech-icon icon-3">
+                                    <i class="fab fa-wordpress"></i>
+                                </div>
+                                <div class="tech-icon icon-4">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="tech-icon icon-5">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- Enhanced Scroll Indicator -->
             <div class="scroll-indicator">
-                <div class="scroll-arrow"></div>
+                <div class="scroll-text">Scroll to explore</div>
+                <div class="scroll-arrow">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
             </div>
         </section>
-
 
         <!-- About Section -->
         <section id="about" class="about">
@@ -137,7 +263,6 @@
                                 <div class="floating-element element-4">
                                     <i class="fas fa-database"></i>
                                 </div>
-                               
                             </div>
                         </div>
                     </div>
@@ -157,6 +282,23 @@
                 <div class="portfolio-grid">
                     <div class="project-card">
                         <div class="project-image">
+                            <img src="assets/beteamly.png" alt="Beteamly">
+                            <div class="project-overlay">
+                                <a href="https://drive.google.com/file/d/16p6pGrtIzd8FM_zi2koG5x2nI12gyRE_/view?usp=sharing" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Beteamly</h3>
+                            <p>Beteamly is an all-in-one HR management platform that streamlines employee data, attendance, payroll, and performance tracking through smart, role-based access.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">TypeScript,Nextjs</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
                             <img src="assets/sieana.png" alt="Siena Crochet">
                             <div class="project-overlay">
                                 <a href="https://drive.google.com/file/d/1-1SsL3ZtXxk_Nn33G3ukMMTdayJZsH7N/view?usp=drive_link" class="project-link" target="_blank">
@@ -169,9 +311,10 @@
                             <p>E-commerce platform for handmade crochet products with custom design and shopping cart functionality.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">woocommerce</span>
-                              </div>
+                            </div>
                         </div>
                     </div>
+                    
                     <div class="project-card">
                         <div class="project-image">
                             <img src="assets/shopCo.png" alt="Shop.co">
@@ -207,26 +350,12 @@
                             </div>
                         </div>
                     </div>
+                    
+                    
+                    
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="assets/beteamly.png" alt="Beteamly">
-                            <div class="project-overlay">
-                                <a href="https://drive.google.com/file/d/16p6pGrtIzd8FM_zi2koG5x2nI12gyRE_/view?usp=sharing" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>Beteamly</h3>
-                            <p>Beteamly is an all-in-one HR management platform that streamlines employee data, attendance, payroll, and performance tracking through smart, role-based access.</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">TypeScript,Nextjs</span> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="assets/finance.png" alt="Beteamly">
+                            <img src="assets/finance.png" alt="Financial App">
                             <div class="project-overlay">
                                 <a href="https://drive.google.com/file/d/1Q0kSc_VrllzmDNBJ_zzU45eAE-B69QQN/view?usp=sharing" class="project-link" target="_blank">
                                     <i class="fas fa-external-link-alt"></i>
@@ -234,16 +363,17 @@
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3>financial App</h3>
+                            <h3>Financial App</h3>
                             <p>A modern financial management app that helps users track income, expenses, and savings effortlessly with real-time insights and intuitive dashboards.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">React</span> 
                             </div>
                         </div>
                     </div>
+                    
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="assets/bloomify.png" alt="Beteamly">
+                            <img src="assets/bloomify.png" alt="Bloomify">
                             <div class="project-overlay">
                                 <a href="https://drive.google.com/file/d/1OVErewZNjlTgLGkB5UirudL7M4l8Iht7/view?usp=sharing" class="project-link" target="_blank">
                                     <i class="fas fa-external-link-alt"></i>
@@ -255,23 +385,6 @@
                             <p>Bloomify is a vibrant marketing agency portfolio showcasing creative strategies, branding expertise, and digital campaigns that help businesses bloom and thrive.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">React</span> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="assets/devedge.png" alt="Beteamly">
-                            <div class="project-overlay">
-                                <a href="https://drive.google.com/file/d/1U-dFXaKIxKYL88HvpVpu6oQubh2vBM-W/view?usp=sharing" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>DevEdge</h3>
-                            <p>DevEdge is a creative web services company delivering modern, responsive websites, custom development, and digital solutions tailored to help businesses grow online.</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Nextjs</span> 
                             </div>
                         </div>
                     </div>
@@ -297,20 +410,17 @@
                         <i class="fab fa-node-js"></i>
                         <span>Node.js</span>
                     </div>
-                    
-                    
                     <div class="tech-item">
                         <i class="fab fa-js-square"></i>
                         <span>JavaScript</span>
                     </div>
-                    
                     <div class="tech-item">
                         <i class="fab fa-wordpress"></i>
                         <span>WordPress</span>
                     </div>
                     <div class="tech-item">
                         <i class="fas fa-database"></i>
-                        <span>database</span>
+                        <span>Database</span>
                     </div>
                     <div class="tech-item">
                         <i class="fab fa-git-alt"></i>
@@ -324,13 +434,66 @@
                         <i class="fab fa-css3-alt"></i>
                         <span>CSS</span>
                     </div>
-
-                   
                 </div>
             </div>
         </section>
 
-       
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">
+                        Ready to start your next project? Let's work together!
+                    </p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>jinanealayli@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/jinane-alayli</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+961 70 298 529</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form class="form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -379,6 +542,10 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+
+
 </body>
 </html>
