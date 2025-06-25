@@ -1573,7 +1573,7 @@ p {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 350px) {
   .container {
     padding: 0 0.75rem;
   }
